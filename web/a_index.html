@@ -25,14 +25,13 @@
 
     <!-- PAGE LEVEL STYLES -->
     <!--<link href="assets/css/layout2.css" rel="stylesheet" />  //Adds Side Wrapper -->
-    <link href="assets/plugins/flot/examples/examples.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/plugins/timeline/timeline.css" />
     <!-- END PAGE LEVEL  STYLES -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    
 </head>
 
 <!-- END HEAD -->
@@ -91,6 +90,7 @@
         </div>
         <!--END MENU SECTION -->
 
+
         <!--PAGE CONTENT -->
         <div id="content">
             <div class="inner" style="min-height: 1200px">
@@ -102,7 +102,6 @@
                 <hr />
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <i class="fa fa-clock-o fa-fw"></i>
                         <h4 style="font-weight: bold;">Announcements</h4>
                     </div>
                     <div class="panel-body">
@@ -114,7 +113,7 @@
                                         justify-content: space-between;"> <span>LIBSYS Temporarily Closed</span><span>10/20/23</span></a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" class="panel-collapse collapse in">
+                                <div id="collapseOne" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         Ya'll, we bouta rearranged the chair n stuff see ya next month. - The Cool
                                         Librarian
@@ -151,10 +150,66 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" style="display: flex;
+                                        justify-content: space-between;"> 
+                                        <span>The Cool Librarian Leaving Permanently</span> <span>02/19/24</span></a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Ya'll, Imma leave, those were not manga. - The Cool Librarian
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4 style="font-weight: bold;">My Borrowed Books</h4>
+                        
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width:20%">Book Cover</th>
+                                        <th>Book Title</th>
+                                        <th>Due Date</th>
+                                        <th>Book Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td ><img src="assets/img/bookcover1.png" alt="" /></td>
+                                        <td>The Art Of War</td>
+                                        <td>February 20, 2024</td>
+                                        <td>Due in x Days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="assets/img/bookcover2.png" alt="" /></td>
+                                        <td>Economics 101</td>
+                                        <td>February 20, 2024</td>
+                                        <td>Due in X days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="assets/img/bookcover3.png" alt="" /></td>
+                                        <td>Fundamentals Of Calculus</td>
+                                        <td>December 20, 2023</td>
+                                        <td>Overdue by x days</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
         <!--END PAGE CONTENT -->
@@ -180,6 +235,7 @@
     <script src="assets/plugins/flot/jquery.flot.time.js"></script>
     <script src="assets/plugins/flot/jquery.flot.stack.js"></script>
     <script src="assets/js/for_index.js"></script>
+    
 
     <!-- END PAGE LEVEL SCRIPTS -->
 </body>
