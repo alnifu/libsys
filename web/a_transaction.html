@@ -25,6 +25,7 @@
     <!--END GLOBAL STYLES -->
 
     <!-- PAGE LEVEL STYLES -->
+    <link href="assets/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
     <!-- END PAGE LEVEL  STYLES -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -107,7 +108,12 @@
                     </div>
                 </div>
                 <hr />
+
+                
             </div>
+            
+
+
         </div>
         <!--END PAGE CONTENT -->
 
@@ -126,6 +132,15 @@
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <!-- END GLOBAL SCRIPTS -->
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="assets/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/plugins/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+    <!-- END PAGE LEVEL SCRIPTS -->
 </body>
 <!-- END BODY-->
 
